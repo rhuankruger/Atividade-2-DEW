@@ -95,3 +95,15 @@ body {
 a:hover {
     opacity: 0.5;
 }
+
+@media print {
+    .header,
+    .footer {
+        display: none;
+    }
+}
+
+.footer {
+    padding: 20px;
+    background-color: #607D8B;
+}
